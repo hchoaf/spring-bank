@@ -19,4 +19,14 @@ internal class BankServiceTest {
         // then
         verify(exactly = 1) { dataSource.getBanks() }
     }
+
+    @Test
+    fun `should return single bank`() {
+        TODO()
+    }
+
+    @Test
+    fun `should return all banks`() {
+        TODO()
+    }
 }
